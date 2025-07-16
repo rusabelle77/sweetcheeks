@@ -1,0 +1,43 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fff8f9;
+    color: #4b2e2e;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffe6f0;
+    text-align: center;
+    padding: 1em;
+}
+.logo {
+    width: 100px;
+    margin-bottom: 0.5em;
+}
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #b56576;
+    font-weight: bold;
+}
+main {
+    padding: 2em;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1em;
+}
+.product {
+    background-color: #fff0f5;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #f8c2d0;
+}
+footer {
+    background-color: #ffe6f0;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+}
